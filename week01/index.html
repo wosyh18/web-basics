@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>나의 첫번째 웹페이지</title>
+    <title>소연의 자작시 페이지</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 브라우저 기본 스타일을 reset합니다 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
@@ -13,8 +13,38 @@
 </head>
 
 <body>
-    <p onclick="popAlert()">Hello, World!</p>
-		<script src="./js/index.js"></script>
+    <section class="poem">
+        <section class="head" onclick="alertPoet()">
+            <p id="title">달리기</p>
+        </section>
+        <section class="text">
+            <section class="caluse">
+                <p>나는 달리기를 매우 좋아해서</p>
+                <p>아침마다 한강에 나가 달리기를 한다</p>
+            </section>
+            <section class="caluse">
+                <p>달리다보면 올라오는 해가 오늘도 나를 반기듯이</p>
+                <p>빼꼼 얼굴을 들이내고</p>
+                <p>바람이 오늘도 나를 응원한다는 듯이 </p>
+                <p>내 살결을 스친다</p>
+            </section>
+            <section class="caluse">
+                <p>물론 나가기 귀찮고 힘들 때도 있다</p>
+                <p>그럴때마다 나는 눈 딱 감고 한 번 하자!라며</p>
+                <p>나 자신을 도닥인다</p>
+            </section>
+            <section class="caluse">
+                <p>그런 나의 행동을 후회하지 않는다</p>
+                <p>달리기가 끝난 후 느껴지는</p>
+                <p>뿌듯함, 자신감</p>
+            </section>
+            <section class="caluse">
+                <p>그것만이 온전한 나를 만드는...</p>
+            </section>
+        </section>
+    </section>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
